@@ -1,5 +1,5 @@
 # JUnitProject
-When it came to unit testing for the Contact, Task, and Appointment services there were requirements. I was asked for the Contact service to be created by an object’s properties comprised of a (String) unique ID that can’t be null and cannot be longer than 10 characters, a (String)first name that can’t be null and cannot be longer than 10 characters, a (String) last name that can’t be null and cannot be greater than 10 characters, a (String) phone number that can’t be null and has to be a length of 10 characters, and a (String) address that can’t be null and cannot be greater than 30 characters. 
+<p>When it came to unit testing for the Contact, Task, and Appointment services there were requirements. I was asked for the Contact service to be created by an object’s properties comprised of a (String) unique ID that can’t be null and cannot be longer than 10 characters, a (String)first name that can’t be null and cannot be longer than 10 characters, a (String) last name that can’t be null and cannot be greater than 10 characters, a (String) phone number that can’t be null and has to be a length of 10 characters, and a (String) address that can’t be null and cannot be greater than 30 characters. 
 
 if (variable == null || variable.length() > 10){ 
  	throw new IllegalArgumentException("variable must not be null and cannot be 	greater than 10 characters long..."); 
@@ -149,6 +149,6 @@ Resources
 
 Bechtold, S., Brannen , S., Link, J., Merdes , M., Philipp, M., de Rancourt, J., & Stein, C. (n.d.). JUnit 5 User Guide. Junit.org. https://junit.org/junit5/docs/current/user-guide/ 
 
-Software Testing Techniques. (2021, February 22). GeeksforGeeks. https://www.geeksforgeeks.org/software-testing-techniques/# 
+Software Testing Techniques. (2021, February 22). GeeksforGeeks. https://www.geeksforgeeks.org/software-testing-techniques/# </p>
 
  
