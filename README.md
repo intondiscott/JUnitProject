@@ -1,14 +1,15 @@
 # JUnitProject
-<p style="color:red">When it came to unit testing for the Contact, Task, and Appointment services there were requirements. I was asked for the Contact service to be created by an object’s properties comprised of a (String) unique ID that can’t be null and cannot be longer than 10 characters, a (String)first name that can’t be null and cannot be longer than 10 characters, a (String) last name that can’t be null and cannot be greater than 10 characters, a (String) phone number that can’t be null and has to be a length of 10 characters, and a (String) address that can’t be null and cannot be greater than 30 characters. 
+<p>When it came to unit testing for the Contact, Task, and Appointment services there were requirements. I was asked for the Contact service to be created by an object’s properties comprised of a (String) unique ID that can’t be null and cannot be longer than 10 characters, a (String)first name that can’t be null and cannot be longer than 10 characters, a (String) last name that can’t be null and cannot be greater than 10 characters, a (String) phone number that can’t be null and has to be a length of 10 characters, and a (String) address that can’t be null and cannot be greater than 30 characters. 
 
 if (variable == null || variable.length() > 10){ 
  	throw new IllegalArgumentException("variable must not be null and cannot be 	greater than 10 characters long..."); 
+  
  } 
  this.variable= variable; 
 
 This code snippet above shows how to put a constraint on an Object’s property to keep inline what the client's needs.  </p>
-<code style="color:red">
-@Test 
+<code>
+$${\color{red}Red}$$ @Test 
 @DisplayName("Test Contact ID too long") 
 void testContactIDTooLong(){ 
  	Assertions.assertThrows(IllegalArgumentException.class, () -> { 
