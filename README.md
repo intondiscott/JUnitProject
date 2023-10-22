@@ -1,4 +1,5 @@
-# JUnitProject
+<h1 align="center">🧪JUnitProject 🧪</h1>
+
 ---
         
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When it came to unit testing for the Contact, Task, and Appointment services there were requirements. I was 
