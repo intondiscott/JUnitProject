@@ -6,8 +6,8 @@ if (variable == null || variable.length() > 10){
  } 
  this.variable= variable; 
 
-This code snippet above shows how to put a constraint on an Object’s property to keep inline what the client's needs.  
-
+This code snippet above shows how to put a constraint on an Object’s property to keep inline what the client's needs.  </p>
+<code>
 @Test 
 @DisplayName("Test Contact ID too long") 
 void testContactIDTooLong(){ 
@@ -15,7 +15,7 @@ void testContactIDTooLong(){
  		new Contact(longID, firstName, lastName, number, address); 
  	}); 
 } 
-
+</code>
 This code snippet above shows how we can test the constraints of the  
 Contact service and result in a pass/fail to see if the code is working properly. JUnit5 shows that we annotate a unit test with @Test before a method call and @DisplayName annotation will show in the console the description of the test (Bechtold et al., n.d.).  
 
